@@ -75,7 +75,7 @@ $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 * Open another terminal and start Gazebo server:
 
 <pre>
-$ rosrun gazebo_ros gzerver
+$ rosrun gazebo_ros gzserver
 </pre>
 
 * Start Gazebo client on the last terminal:

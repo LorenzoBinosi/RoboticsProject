@@ -40,7 +40,7 @@ namespace gazebo
     {
         if(this->ticks == 0)
         {
-            printf("\nLeft wheel: %f m/s\nRight wheel: %f m/s\n", (this->left_joint->GetVelocity(0)*0.1), (this->right_joint->GetVelocity(0)*0.1));
+            printf("\nLeft wheel: %f rad/s\nRight wheel: %f rad/s\n", (this->left_joint->GetVelocity(0)), (this->right_joint->GetVelocity(0)));
         }
         this->ticks++;
         this->ticks = this->ticks % this->sleep_iterations;
